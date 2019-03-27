@@ -1,0 +1,5 @@
+node_modules
+test_file.json
+
+*.swp
+.DS_Store

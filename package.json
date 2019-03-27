@@ -1,0 +1,15 @@
+{
+  "name": "jsonplayground",
+  "version": "1.0.0",
+  "description": "Playground for messing around with JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "node"
+  ],
+  "author": "Yulong Tan",
+  "license": "MIT"
+}
