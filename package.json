@@ -11,5 +11,9 @@
     "node"
   ],
   "author": "Yulong Tan",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "node-fetch": "^2.3.0"
+  }
 }
