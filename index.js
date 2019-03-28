@@ -3,11 +3,12 @@ let fs = require('fs');
 
 let client = require('./clients/RestClient');
 let auth = require('./auth.json');
+let config = require('./config.json');
 
 async function main() {
-  let flightNumber = '380';
-  let date = '2019-03-29';
-  let origin = 'SEA';
+  let flightNumber = config.flightNumber;
+  let date = config.date;
+  let origin = config.origin;
 
   let url = `https://api.alaskaair.com/gds/1/flights/${flightNumber}/priorityList?date=${date}&origin=${origin}&asgds-appid=${auth['asgds-appid']}`;
   let json = await client.Get(url);

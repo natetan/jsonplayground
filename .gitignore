@@ -2,6 +2,7 @@ node_modules
 test_file.json
 results.json
 auth.json
+config.json
 
 *.swp
 .DS_Store
