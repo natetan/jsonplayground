@@ -4,5 +4,8 @@ results.json
 auth.json
 config.json
 
+priority-codes-qa.xml
+p-codes.json
+
 *.swp
 .DS_Store
